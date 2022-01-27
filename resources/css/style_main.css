@@ -1,0 +1,69 @@
+body {
+    background-color: yellow;
+    overflow: hidden;
+
+    font-family: ohno-blazeface, sans-serif;
+    font-style: normal;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+    color: #FF57BB;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    align-self: auto;
+    
+    color: #FF57BB;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+header {
+    position:absolute;
+    width: 100%;
+    min-height: 10%;
+    top: 0;
+}
+
+.logo-button {
+    width: fit-content;
+    margin: 8px auto;
+    padding: 8px;
+
+    font-size: 6em;
+}
+
+.main-information {
+    width: 40%;
+    min-width: 300px;
+    margin: auto;
+
+    text-align: center;
+    font-size: 1em;
+
+}
+
+footer {
+    font-weight: 900;
+    position: absolute;
+    bottom:0;
+    width: 100%; 
+    font-size: 1em;
+}
+
+#countdown {
+    width: fit-content;
+    margin: 8px auto;
+    padding: 8px;
+}
+

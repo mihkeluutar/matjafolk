@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resources/css/style_main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/cti8emm.css">
+    <title>Ta juba kutsub</title>
+</head>
+
+<body>
+    <script src="resources/js/three.js"></script>
+    <script src="resources/js/GLTFLoader.js"></script>
+    <script src="resources/js/OrbitControls.js"></script>
+    <script src="resources/js/scripts.js"></script>
+
+    <header>
+        <a href="index.html">
+            <h1 class="logo-button">Mätja folk</h1>
+        </a>
+    </header>
+
+    <div class="spinning-cow">
+        <script>
+            initModelSpin();
+        </script>
+    </div>
+
+
+    <footer>
+        <p id="countdown" onclick="changeBackground();"></p>
+        <script>
+            countdownTimer(new Date("Jul 01, 2022 00:00:00").getTime());
+        </script>
+    </footer>
+</body>
+
+</html>
